@@ -1,0 +1,24 @@
+Internship Task Report
+
+Intern Name: M.vetri
+Task Title: Team Members
+Date: 19/03.24
+
+Task Description:
+The task assigned was to create a web page displaying the team members of [Your Company Name] along with their roles and positions
+
+Steps Taken:
+Created the HTML structure for the team section, including headings and div elements for organizing content.
+Added appropriate text content to introduce the company and its team.Inserted placeholders for team member images and details using HTML img and p elements.Styled the page using an external CSS file to enhance the visual appearance.
+
+Challenges Faced:
+Difficulty in sourcing appropriate images for team members.Ensuring consistency in the layout and design across different screen sizes.
+
+Solutions Implemented:
+Utilized placeholder images temporarily to maintain layout integrity.Employed responsive design techniques to ensure the page's adaptability to various devices.
+
+Learnings:
+Enhanced HTML and CSS skills through practical application.Gained experience in structuring and styling a web page for effective presentation
+
+Project Update:
+The web page for showcasing the team members of [Your Company Name] has been successfully created. However, placeholder images are currently being used until actual team member images are obtained. Further refinements in design and content presentation may be considered based on feedback.

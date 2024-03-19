@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #010101;
+}
+
+/* Styles for the team section */
+.team-section {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+#team, #heading {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: #e967af;
+    width: fit-content; /* Adjusted to fit the content */
+}
+
+#para {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+}
+
+#line {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border-top: 2px dashed #eb5bb4;
+}
+
+
+.team-title h3 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #e967af;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: fit-content; /* Adjusted to fit the content */
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin: 20px auto;
+}
+
+.team-card {
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.6s ease;
+    flex: 1 1 calc(33.33% - 40px); 
+    max-width: 250px; 
+}
+
+.team-card:hover {
+    transform: translateY(-12px);
+}
+
+.team-image img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-details h3 {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.team-details p {
+    color: #80beac;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .team-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-card {
+        width: 80%; 
+        margin: 20px 0;
+    }
+}
+.team-section {
+    border-radius: 20px; 
+}
+
+.team-card {
+    border-radius: 12px; 
+}
+.team-section {
+    border: 2px solid black; 
+    border-radius: 20px; 
+}
+
+.team-card {
+    border: 1px solid #ccc; 
+}
+.team-section {
+    position: relative;
+}
+
+.team-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('corner-image.png'); 
+    background-size: cover;
+}
+.team-section {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%);
+   
+}
+body {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); 
+}
